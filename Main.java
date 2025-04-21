@@ -13,5 +13,7 @@ public class Main
         CombinedTable c2 = new CombinedTable(t2, t3);
         System.out.println(c2.canSeat(18));
         System.out.println(c2.getDesirability());
+        t2.setViewQuality(80);
+        System.out.println(c2.getDesirability());
 	}
 }
